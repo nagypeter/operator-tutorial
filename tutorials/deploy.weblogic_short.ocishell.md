@@ -52,7 +52,7 @@ We provided for you domain.yaml file that contains yaml representation of the cu
 ```bash
 curl -LSs https://raw.githubusercontent.com/nagypeter/weblogic-operator-tutorial/master/k8s/domain_short.yaml >~/domain.yaml
 ```
-Please review it with your favourite editor or in the [browser](https://github.com/nagypeter/weblogic-operator-tutorial/blob/master/k8s/domain.yaml).
+Please review it with your favourite editor or in the [browser](domain.yaml).
 
 Cerate Domain custom resource object by applying the following command:
 ```bash
