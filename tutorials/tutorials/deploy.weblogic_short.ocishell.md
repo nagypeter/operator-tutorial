@@ -52,7 +52,7 @@ We provided for you domain.yaml file that contains yaml representation of the cu
 ```bash
 curl -LSs https://raw.githubusercontent.com/nagypeter/weblogic-operator-tutorial/master/k8s/domain_short.yaml >~/domain.yaml
 ```
-Please review it with your favourite editor or in the [browser](domain.yaml).
+Please review it with your favourite editor or in the [browser](../domain.yaml).
 
 Cerate Domain custom resource object by applying the following command:
 ```bash
@@ -120,7 +120,7 @@ Construct the Administration Console's url and open in a browser:
 
 Enter admin user credentials (weblogic/welcome1) and click **Login**
 
-![](images/deploy.domain/weblogic.console.login.png)
+![](../tutorials/images/deploy.domain/weblogic.console.login.png)
 
 !Please note in this use case the use of Administration Console is just for demo/test purposes because domain configuration persisted in pod which means after the restart the original values (baked into the image) will be used again. To override certain configuration parameters - to ensure image portability - follow the override part of this tutorial.
 
@@ -130,6 +130,6 @@ The URL pattern of the sample application is the following:
 
 `http://EXTERNAL-IP/opdemo/?dsname=testDatasource`
 
-![](images/deploy.domain/webapp.png)
+![](../tutorials/images/deploy.domain/webapp.png)
 
 Refresh the page and notice the hostname changes. It reflects the managed server's name which responds to the request. You should see the load balancing between the two managed servers.

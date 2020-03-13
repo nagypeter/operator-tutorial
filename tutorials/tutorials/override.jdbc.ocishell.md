@@ -106,7 +106,7 @@ Before applying changes check the current JDBC parameters using the demo Web App
 
 `http://EXTERNAL-IP/opdemo/?dsname=testDatasource`
 
-![](images/override/original.jdbc.properties.png)
+![](../tutorials/images/override/original.jdbc.properties.png)
 
 Note the value of the Database User and the Database URL.
 
@@ -162,7 +162,7 @@ Now check the expected values of the JDBC datasource using the demo Web Applicat
 
 `http://EXTERNAL-IP/opdemo/?dsname=testDatasource`
 
-![](images/override/updated.jdbc.properties.png)
+![](../tutorials/images/override/updated.jdbc.properties.png)
 
 You have to see the following changes:
 - **Database User**: scott2

@@ -16,18 +16,18 @@ This tutorial implements the Docker image with the WebLogic domain inside the im
 
 In Kubernetes environment WebLogic Operator ensures that only one Admin and multiple Managed servers will run in the domain. An operator is an application-specific controller that extends Kubernetes to create, configure, and manage instances of complex applications. The Oracle WebLogic Server Kubernetes Operator (the "operator") simplifies the management and operation of WebLogic domains and deployments.
 
-Helm is a framework that helps you manage Kubernetes applications, and helm charts help you define and install Helm applications into a Kubernetes cluster. 
+Helm is a framework that helps you manage Kubernetes applications, and helm charts help you define and install Helm applications into a Kubernetes cluster.
 
 This tutorial has been tested on Oracle Cloud Infrastructure Container Engine for Kubernetes (OKE).
 
 ### The topics to be covered in this hands-on session are: ###
 
-1. [Setup Oracle Kubernetes Engine instance on Oracle Cloud Infrastructure.](setup.oke.ocishell.md)
-2. [Install WebLogic Operator](install.operator.ocishell.md)
-3. [Install Traefik Software Loadbalancer](install.traefik.ocishell.md)
-4. [Deploy WebLogic Domain](deploy.weblogic_short.ocishell.md)
-5. [Scaling WebLogic Cluster](scale.weblogic.ocishell.md)
-6. [Override JDBC Datasource parameters](override.jdbc.ocishell.md)
-7. [Updating deployed application by rolling restart to the new image](update.application_short.ocishell.md)
-7. [Assigning WebLogic Pods to Nodes (scenario simulating cluster spanning 2 data center)](node.selector.ocishell.md)
-8. [Assigning WebLogic Pods to Nodes (scenario simulating licensing only the subset of the cluster)](node.selector.license.ocishell.md)
+1. [Setup Oracle Kubernetes Engine instance on Oracle Cloud Infrastructure.](tutorials/setup.oke.ocishell.md)
+2. [Install WebLogic Operator](tutorials/install.operator.ocishell.md)
+3. [Install Traefik Software Loadbalancer](tutorials/install.traefik.ocishell.md)
+4. [Deploy WebLogic Domain](tutorials/deploy.weblogic_short.ocishell.md)
+5. [Scaling WebLogic Cluster](tutorials/scale.weblogic.ocishell.md)
+6. [Override JDBC Datasource parameters](tutorials/override.jdbc.ocishell.md)
+7. [Updating deployed application by rolling restart to the new image](tutorials/update.application_short.ocishell.md)
+7. [Assigning WebLogic Pods to Nodes (scenario simulating cluster spanning 2 data center)](tutorials/node.selector.ocishell.md)
+8. [Assigning WebLogic Pods to Nodes (scenario simulating licensing only the subset of the cluster)](tutorials/node.selector.license.ocishell.md)

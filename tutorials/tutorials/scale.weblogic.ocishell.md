@@ -41,7 +41,7 @@ sample-domain1-managed-server3   1/1       Running       0          1m
 ```
 Soon the managed server 3 will appear and will be ready within a few minutes. You can also check the managed server scaling action using the WebLogic Administration console:
 
-![alt text](images/scaling/check.on.console.png)
+![alt text](../tutorials/images/scaling/check.on.console.png)
 
 Note! You can edit directly the existing (running) domain resource file by using the `kubectl edit` command. In this case your `domain.yaml` available on your desktop will not reflect the changes of the running domain's resource.
 ```bash

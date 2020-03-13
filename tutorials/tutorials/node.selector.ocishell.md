@@ -65,7 +65,7 @@ adminServer:
       wlservers2: true
 ```
 Assign 2-2 servers (including admin) to 1-1 labelled node.
-You can double check the syntax in the sample [domain.yaml](https://github.com/nagypeter/weblogic-operator-tutorial/blob/master/k8s/domain.yaml) where this part turned into comment.
+You can double check the syntax in the sample [domain.yaml](../domain.yaml) where this part turned into comment.
 
 For the managed servers you have to insert `managedServers:` which has to be at the same level (indentation) with `adminServer:`. In this property you need to use WebLogic server name to identify the pod. The server name is defined during WebLogic image creation and if you followed this tutorial it is `managed-serverX`.
 ```yaml

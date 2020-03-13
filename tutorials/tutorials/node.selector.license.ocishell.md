@@ -54,7 +54,7 @@ serverPod:
   nodeSelector:
     licensed-for-weblogic: true
 ```
-Be careful with the indentation. You can double check the syntax in the sample [domain.yaml](domain.yaml) where this part turned into comment.
+Be careful with the indentation. You can double check the syntax in the sample [domain.yaml](../domain.yaml) where this part turned into comment.
 
 Save the changes and apply the new domain resource definition.
 ```bash
