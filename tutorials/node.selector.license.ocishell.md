@@ -2,7 +2,7 @@
 
 ### Assigning WebLogic Pods to Licensed Node ###
 
-This use case similar to described in [Assigning WebLogic Pods to Nodes lab](node.selector.md) where individual servers/pods were asssigned to specific node(s). However the focus in this use case on the license coverage.
+This use case similar to described in [Assigning WebLogic Pods to Nodes lab](node.selector.license.ocishell.md) where individual servers/pods were asssigned to specific node(s). However the focus in this use case on the license coverage.
 
 At v1.13, Kubernetes supports clusters with up to 5000(!) nodes. However certain software like WebLogic requires license. Using `nodeSelector` feature Kubernetes ensure that WebLogic pods end up on licenced worker node(s).
 
@@ -54,7 +54,7 @@ serverPod:
   nodeSelector:
     licensed-for-weblogic: true
 ```
-Be careful with the indentation. You can double check the syntax in the sample [domain.yaml](https://github.com/nagypeter/weblogic-operator-tutorial/blob/master/k8s/domain.yaml) where this part turned into comment.
+Be careful with the indentation. You can double check the syntax in the sample [domain.yaml](domain.yaml) where this part turned into comment.
 
 Save the changes and apply the new domain resource definition.
 ```bash
