@@ -34,4 +34,4 @@ During the rolling restart check your web application periodically. If the respo
 
 `http://EXTERNAL-IP/opdemo/?dsname=testDatasource`
 
-![](../tutorials/images/update.application/004.check.changes.png)
+![](../images/update.application/004.check.changes.png)
